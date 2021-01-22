@@ -1,13 +1,13 @@
 {
 	"auth": {
-		"stockmonitoringdashb41a7f230": {
+		"stockmonitoring2021": {
 			"service": "Cognito",
 			"providerPlugin": "awscloudformation",
 			"dependsOn": []
 		}
 	},
 	"api": {
-		"stockmonitoringdashb": {
+		"stockmonitoringapi": {
 			"service": "AppSync",
 			"providerPlugin": "awscloudformation",
 			"output": {
