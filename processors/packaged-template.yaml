@@ -5,7 +5,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       Handler: index.handler
-      CodeUri: s3://amplify-stockmonitoringapi-master-195528-deployment/71cc278202b8efcb77f704cd2b7d18f7
+      CodeUri: s3://stock-dashboard-container/6410c41f411a3d59600a6a90f6a62d71
       Runtime: nodejs10.x
       MemorySize: 256
       Timeout: 120
