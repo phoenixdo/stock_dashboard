@@ -163,7 +163,7 @@ Resources:
       SmsVerificationMessage: !Ref smsVerificationMessage
       SmsConfiguration:
         SnsCallerArn: !GetAtt SNSRole.Arn
-        ExternalId: stockm41a7f230_role_external_id
+        ExternalId: stockm2021_role_external_id
 
 
   UserPoolClientWeb:
